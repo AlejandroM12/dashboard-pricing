@@ -1,11 +1,11 @@
-import { Header, Sidebar } from "./components";
+import { Header, Container, Sidebar } from "./components";
 
 function App() {
   return (
-    <div className="bg-[#141517]">
+    <Container>
       <Sidebar />
       <Header />
-    </div>
+    </Container>
   );
 }
 

@@ -3,9 +3,11 @@ import {
   RiArrowDownSLine,
   RiCheckboxBlankCircleFill,
 } from "react-icons/ri";
+import { Content } from "../Content";
+
 const Header = () => {
   return (
-    <main className="lg:pl-80">
+    <main className="lg:pl-80 p-8">
       <header className="p-8 flex justify-end border-b border-gray-500 fixed left-0 top-0 w-full bg-[#141517]">
         <ul className="flex items-center gap-4">
           <li>
@@ -27,6 +29,7 @@ const Header = () => {
           </li>
         </ul>
       </header>
+      <Content />
     </main>
   );
 };
